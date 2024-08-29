@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polidinamico - Prototipo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo"> <!-- Ruta a la imagen -->
+        <h1>POLITÉCNICO COLOMBIANO JAIME ISAZA CADAVID</h1>
+    </header>
+    
+    <main>
+        <h2>Hola, Bienvenido a Polidinámico</h2>
+        <p>Por favor, seleccione una opción del menú desplegable para ver las acciones disponibles.</p>
+
+        <label for="options">Seleccione una opción:</label>
+        <select id="options">
+            <option value="">--Seleccionar--</option>
+            <option value="docentes">Docentes</option>
+            <option value="empleados">Empleados</option>
+            <option value="estudiantes">Estudiantes</option>
+            <option value="inscripcion">Inscripción para aspirantes a docentes cátedra</option>
+            <option value="clave">Recordar clave de acceso</option>
+            <option value="servicios">Solicitud servicios informáticos</option>
+            <option value="correo">Solución problemas correo institucional</option>
+        </select>
+    </main>
+    
+    <footer>
+        <a href="javascript:history.back();" class="button">Regresar</a>
+        <a href="/" class="button">Volver al inicio</a> <!-- Cambia '/' por la URL de tu página de inicio -->
+        <button id="next-button" class="button">Siguiente</button>
+    </footer>
+
+    
+    <script src="code/app.java.js"></script>
+</body>
+</html>
+
